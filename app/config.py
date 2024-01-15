@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 
 class Setting(BaseModel):
-    database_hostname: str = 'localhost'
+    database_hostname: str = 'postgres'
     database_password: str = '12345'
     database_port: str = '5432'
     database_name: str = 'fastapi'
